@@ -20,11 +20,34 @@ Thank you for taking the time to look at this.  My thanks to other respositories
 
 The datafiles from these projects were used by serveral of these projects.  So, yes, the code is all written to handle the reading and processing of large data files, in different formats, using utf8mb4, and bidi text (Hebrew and English).  
 
-### Project 00: XX-empty.go
+### Project 00: 00-helloworld.go
+Very simple helloworld that is just used to test that you installed your environment correctly or can be used as a starting application.
 
+Compile instructions: 
+<code>
+  $ go build helloworld.go
+</code>
 
-### Project 01: XX-empty.go
+### Project 01: 01-hellomulti-hello.go
+01-helloworld-twofiles demonstrates how to create an application that includes a local file.  Once you start to use multiple files,
+you need to start storing each project in its own directory.  We justed preface all files included in this project with "01-hellomulti".  
+If you want to test this code, you will need to actually put the files into their own directory, initialize the project, and then 
+compile the code as a project instead of as a single file.
 
+Compile instructions (example instructions, change accordingly):
+<code>
+  $ mkdir hello4
+  $ cd hello4
+  $ go mod init hello4
+  $ go mod edit -replace localhost/proactive/greetings=../greetings
+  $ go mod tidy
+  # Run without compiling
+  $ go run .
+  # Create an exectuable
+  $ go build
+  # Run the executable.
+  $ ./hello4
+</code>
 
 ### Project 02: XX-empty.go
 
