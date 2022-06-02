@@ -1,4 +1,4 @@
-// File: hello/hello4.go
+// File: hello/helloerrors.go
 // Version: 0.1
 // Purpose: To demonstrate how error handling works.
 // -------------------------------------------------------
