@@ -1,4 +1,4 @@
-// File: greetings/greetings.go
+// File: greetingsmulti/greetingsmulti.go
 // Version: 0.1
 // -------------------------------------------------------
 // Purpose: To create a greetings package.
