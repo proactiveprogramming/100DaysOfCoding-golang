@@ -28,7 +28,7 @@ Compile instructions:
   $ go build helloworld.go
 </code>
 
-### Project 01: 01-hellomulti-hello.go
+### Project 01: 01-hellomulti (directory)
 01-helloworld-twofiles demonstrates how to create an application that includes a local file.  Once you start to use multiple files,
 you need to start storing each project in its own directory.  We justed preface all files included in this project with "01-hellomulti".  
 If you want to test this code, you will need to actually put the files into their own directory, initialize the project, and then 
