@@ -1,11 +1,11 @@
-// File: helloworld2/helloworld2.go
+// File: helloworldmulti/helloworldmulti.go
 // Version: 1.0
 // -------------------------------------------------------
 package main
 
 import (
 	"fmt"
-	"localhost/myproject/greetings"
+	"localhost/myproject/greetingsmulti"
 )
 
 func main() {
