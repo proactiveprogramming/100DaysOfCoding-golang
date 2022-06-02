@@ -20,6 +20,14 @@ Thank you for taking the time to look at this.  My thanks to other respositories
 
 The datafiles from these projects were used by serveral of these projects.  So, yes, the code is all written to handle the reading and processing of large data files, in different formats, using utf8mb4, and bidi text (Hebrew and English).  
 
+## Data directories
+* <b>Data</b> Original data files.
+* <b>Data-output</b> Modified data files from either custom source code, regular expression commands in a text editor, or sometimes manual modification.
+
+## Project files and directories (when more than one file was created)
+Single file projects are just a file.  If the projects required multiple files, the files are stored in a directory.
+Sometimes, if several projects are closely related, but still separate projects, they may be stored in one directory.
+
 ### Project 00: 00-helloworld.go
 Very simple helloworld that is just used to test that you installed your environment correctly or can be used as a starting application.
 
