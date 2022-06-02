@@ -1,0 +1,10 @@
+// File: .bashrc (add code to this file)
+// Version: 1.0
+// Project: golang environmental variables.
+// -------------------------------------------------------
+#export GOROOT="/usr/local/go"
+export GOPATH="$HOME/projects/goprojects"
+export GOBIN="$GOPATH/bin"
+export GOUSERBIN="$GOPATH/bin"
+export GOUSERPKG="$GOPATH/pkg"
+export GOUSERSRC="$GOPATH/src"
