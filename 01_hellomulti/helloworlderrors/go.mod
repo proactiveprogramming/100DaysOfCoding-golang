@@ -1,7 +1,7 @@
-module hello4
+module helloerrors
 
 go 1.16
 
-replace localhost/proactive/greetings => ../greetings
+replace localhost/myproject/greetings => ../greetings
 
-require localhost/proactive/greetings v0.0.0-00010101000000-000000000000
+require localhost/myproject/greetings v0.0.0-00010101000000-000000000000
