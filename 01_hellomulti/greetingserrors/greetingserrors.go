@@ -1,4 +1,4 @@
-// File: greetings/greetingserrors.go
+// File: greetingserrors/greetingserrors.go
 // Version: 0.1
 // -------------------------------------------------------
 package greetingserrors 
